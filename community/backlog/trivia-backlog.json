@@ -304,7 +304,7 @@
       "Takayama"
     ],
     "correctIndex": 0,
-    "issued": true,
+    "issued": false,
     "completed": false
   },
   {
@@ -878,7 +878,7 @@
       "Nagano"
     ],
     "correctIndex": 0,
-    "issued": true,
+    "issued": false,
     "completed": false
   },
   {

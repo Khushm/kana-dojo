@@ -290,7 +290,7 @@
   {
     "id": 49,
     "text": "\"〜ながらも\" means \"even while\" or \"though\" (contrast).",
-    "issued": true,
+    "issued": false,
     "completed": false
   },
   {
@@ -309,7 +309,7 @@
     "id": 52,
     "text": "\"〜おかげで\" expresses gratitude for a cause, \"thanks to\".",
     "completed": false,
-    "issued": true
+    "issued": false
   },
   {
     "id": 53,

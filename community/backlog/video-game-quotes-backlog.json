@@ -846,7 +846,7 @@
     "game": "Danganronpa series",
     "character": "Makoto Naegi",
     "id": 85,
-    "issued": true,
+    "issued": false,
     "completed": false
   },
   {
@@ -1086,7 +1086,7 @@
     "game": "Street Fighter series",
     "character": "Ryu",
     "id": 109,
-    "issued": true,
+    "issued": false,
     "completed": false
   },
   {
