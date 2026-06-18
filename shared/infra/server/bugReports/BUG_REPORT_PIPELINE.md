@@ -43,23 +43,17 @@ That migration creates:
 - `updated_at` trigger
 - private Storage bucket `bug-report-attachments`
 
-Manual actions still required:
+Completed remote setup:
 
-1. Log in to Supabase:
+- Logged in with Supabase CLI.
+- Linked this repo to project `kana-dojo` / `tplfaltoxejyvyxvwwoo`.
+- Pushed `20260618190346_bug_report_pipeline.sql` to the remote database.
+
+The commands used were:
 
 ```powershell
 supabase login
-```
-
-2. Link this repo to the Supabase project:
-
-```powershell
 supabase link --project-ref <your-project-ref>
-```
-
-3. Push the migration to the linked remote project:
-
-```powershell
 supabase db push
 ```
 
@@ -135,8 +129,6 @@ Authorization: Bearer <TALLY_WEBHOOK_TOKEN>
 
 These steps cannot be completed from this terminal without account-specific secrets or browser authorization:
 
-- `supabase login`: opens/authenticates against your Supabase account.
-- `supabase link --project-ref <your-project-ref>`: requires the exact Supabase project ref.
 - Vercel env vars: require the actual secret values.
 - GitHub PAT: must be created in GitHub with your account permissions.
 - DeepSeek API key: must be created in the DeepSeek dashboard.
@@ -278,9 +270,9 @@ The source section includes the Supabase report ID and Tally submission ID so ma
 - [x] Install Supabase CLI.
 - [x] Initialize Supabase config in this repo.
 - [x] Create the bug report pipeline migration.
-- [ ] Run `supabase login`.
-- [ ] Run `supabase link --project-ref <your-project-ref>`.
-- [ ] Run `supabase db push`.
+- [x] Run `supabase login`.
+- [x] Run `supabase link --project-ref tplfaltoxejyvyxvwwoo`.
+- [x] Run `supabase db push`.
 - [ ] Add Vercel env vars.
 - [ ] Deploy to Preview.
 - [ ] Temporarily point Tally webhook at Preview if desired.
